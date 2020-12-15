@@ -23,7 +23,7 @@ NEWEGG_CONTENT_TO_CHECK = [
 
 EMAIL_TEMPLATE = 'Subject: {}\n\n{}'
 USER_CREDENTIALS = ('nvidia.3080.buy@gmail.com', 'Johnnyr88590929')
-RECEIVERS = ['zhaoyu19920226@gmail.com', 'nvidia.3080.buy@gmail.com']  # 'wangxiaotian2007@gmail.com'
+RECEIVERS = ['nvidia.3080.buy@gmail.com']
 
 
 class ContentChecker(threading.Thread):
